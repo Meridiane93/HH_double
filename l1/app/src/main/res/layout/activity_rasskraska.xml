@@ -7,6 +7,18 @@
     android:layout_height="match_parent"
     tools:context=".ActivityRasskraska">
 
+    <EditText
+        android:id="@+id/edColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/button_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <Button
         android:id="@+id/button_color"
         style="@style/Button_hh_l1"
@@ -17,4 +29,13 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_check_color"
+        style="@style/Button_hh_l1"
+        android:layout_marginBottom="8dp"
+        android:text="Проверить цвет"
+        app:layout_constraintBottom_toTopOf="@+id/button_color"
+        app:layout_constraintEnd_toEndOf="@+id/button_color"
+        app:layout_constraintStart_toStartOf="@+id/button_color" />
 </androidx.constraintlayout.widget.ConstraintLayout>

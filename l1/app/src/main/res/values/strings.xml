@@ -13,4 +13,5 @@
 
     //ActivityRasskraska
     <string name="btn_text">Новый цвет</string>
+    <string name="toast_empty">Поле не заполнено</string>
 </resources>
