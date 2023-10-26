@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_ball_of_fate"
+        style="@style/Button_hh_l1"
+        android:layout_marginTop="16dp"
+        android:text="@string/ball_of_fate"
+        app:layout_constraintEnd_toEndOf="@+id/btn_album"
+        app:layout_constraintStart_toStartOf="@+id/btn_album"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_album"
+        style="@style/Button_hh_l1"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/Album"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_rasskraska"
+        style="@style/Button_hh_l1"
+        android:layout_marginBottom="16dp"
+        android:text="@string/Rasskraska"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_album"
+        app:layout_constraintStart_toStartOf="@+id/btn_album" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

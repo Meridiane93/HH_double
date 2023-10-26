@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">hh_l1</string>
+    <string name="ball_of_fate">Шар судьбы</string>
+    <string name="Album">Альбом</string>
+    <string name="Rasskraska">Расскраска</string>
+
+    //ActivityAlbum
+    <string name="lucky">Мне повезёт</string>
+
+    //ActivityBall
+    <string name="answer">Ответы</string>
+    <string name="text_default">Сейчас неизвестно</string>
+
+    //ActivityRasskraska
+    <string name="btn_text">Новый цвет</string>
+</resources>

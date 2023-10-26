@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="random_array">
+        <item>да</item>
+        <item>конечно</item>
+        <item>бесспорно</item>
+        <item>должно быть так</item>
+        <item>возможно</item>
+        <item>шансов мало</item>
+        <item>звезды говорят нет</item>
+        <item>не могу сказать</item>
+        <item>сейчас неизвестно</item>
+        <item>спросите позже</item>
+    </string-array>
+
+    <array name="array_color">
+    <item name="LimeGreen">#32CD32</item>
+    <item name="Red">#FF0000</item>
+    <item name="DeepPink">#FF1493</item>
+    <item name="Orange">#FFA500</item>
+    <item name="Yellow">#FFFF00</item>
+    <item name="DarkMagenta">#8B008B</item>
+    <item name="SandyBrown">#F4A460</item>
+    </array>
+
+    </resources>
